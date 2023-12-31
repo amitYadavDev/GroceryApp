@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "amitapps.media.practice.app-mergeDebugResources-3:/layout/activity_second.xml",
+        "source": "amitapps.media.practice.app-main-6:/layout/activity_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\amit8\\Desktop\\Open_Source_Contribution\\ivy-wallet\\.gradle\\daemon\\8.0\\amitapps.media.practice.app-mergeDebugResources-3:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\amit8\\Desktop\\Open_Source_Contribution\\ivy-wallet\\.gradle\\daemon\\8.0\\amitapps.media.practice.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\amit8\\Desktop\\Open_Source_Contribution\\ivy-wallet\\.gradle\\daemon\\8.0\\amitapps.media.practice.app-mergeDebugResources-3:\\layout\\activity_second.xml",
+        "source": "C:\\Users\\amit8\\Desktop\\Open_Source_Contribution\\ivy-wallet\\.gradle\\daemon\\8.0\\amitapps.media.practice.app-main-6:\\layout\\activity_second.xml"
+    }
+]

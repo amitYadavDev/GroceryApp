@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "amitapps.media.practice.app-mergeDebugResources-2:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\amit8\\Desktop\\Open_Source_Contribution\\ivy-wallet\\.gradle\\caches\\transforms-3\\e838f2b5bcd941b0c016e4c9916cd3b6\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "amitapps.media.practice.app-mergeDebugResources-2:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\amit8\\Desktop\\Open_Source_Contribution\\ivy-wallet\\.gradle\\caches\\transforms-3\\e838f2b5bcd941b0c016e4c9916cd3b6\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

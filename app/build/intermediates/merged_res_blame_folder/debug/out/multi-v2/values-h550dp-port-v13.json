@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "amitapps.media.practice.app-mergeDebugResources-2:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\amit8\\Desktop\\Open_Source_Contribution\\ivy-wallet\\.gradle\\caches\\transforms-3\\c09c93762811a5f39a9bc813f8a02dbf\\transformed\\material-1.10.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "76",
+                        "endOffsets": "127"
+                    }
+                }
+            ]
+        }
+    ]
+}
