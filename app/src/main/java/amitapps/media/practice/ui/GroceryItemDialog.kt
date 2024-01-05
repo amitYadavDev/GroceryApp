@@ -1,43 +1,45 @@
 package amitapps.media.practice.ui
 
 import amitapps.media.practice.R
+import amitapps.media.practice.model.Room.entity.GroceryItems
 import android.content.Context
 import android.os.Bundle
 import android.view.Window
+import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatDialog
 
-class GroceryItemDialog(context: Context, var dialogListener: DialogListener) : AppCompatDialog(context) {
+class GroceryItemDialog(context: Context,var dialogListener: DialogListener):AppCompatDialog(context) {
+    val tvSave : TextView? = findViewById(R.id.tvSave)
+    val etItemName: EditText? = findViewById(R.id.etItemName)
+    val etItemQuantity: EditText? = findViewById(R.id.etItemQuantity)
+    val etItemPrice: EditText? = findViewById(R.id.etItemPrice)
+    val tvCancel: TextView? = findViewById(R.id.tvCancel)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportRequestWindowFeature(Window.FEATURE_NO_TITLE)
         setContentView(R.layout.grocerydialog)
 
-        // Click listener on Save button
-        // to save all data.
-        tvSave.setOnClickListener {
+        tvSave?.setOnClickListener {
 
-            // Take all three inputs in different variables from user
-            // and add it in Grocery Items database
-            val name = etItemName.text.toString()
-            val quantity = etItemQuantity.text.toString().toInt()
-            val price = etItemPrice.text.toString().toInt()
+            val name = etItemName?.text.toString()
+            val quantity = etItemQuantity?.text.toString().toInt()
+            val price = etItemPrice?.text.toString().toInt()
 
-            // Toast to display enter items in edit text
-            if (name.isEmpty()) {
-                Toast.makeText(context, "Please Enter Item Name", Toast.LENGTH_SHORT).show()
+            if (name.isEmpty()){
+                Toast.makeText(context,"Please Enter Item Name",Toast.LENGTH_SHORT).show()
             }
 
-            val item = GroceryItems(name, quantity, price)
+            val item = GroceryItems(name , quantity , price)
             dialogListener.onAddButtonClicked(item)
             dismiss()
+
         }
 
-        // On click listener on cancel text to close dialog box
-        tvCancel.setOnClickListener {
+        tvCancel?.setOnClickListener {
             cancel()
         }
     }
-}
 }
